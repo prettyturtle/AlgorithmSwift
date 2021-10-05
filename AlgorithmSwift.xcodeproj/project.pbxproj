@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B07551D270C054800E5F7D8 /* 수 정렬하기 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수 정렬하기 2.swift"; sourceTree = "<group>"; };
 		6BB2539126FE4E5000AEC111 /* AlgorithmSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB2539426FE4E5000AEC111 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6BB2539C26FE4E7C00AEC111 /* 선택정렬.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "선택정렬.swift"; sourceTree = "<group>"; };
@@ -58,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B07551C270C052000E5F7D8 /* 5. 고급 정렬 알고리즘 */ = {
+			isa = PBXGroup;
+			children = (
+				6B07551D270C054800E5F7D8 /* 수 정렬하기 2.swift */,
+			);
+			name = "5. 고급 정렬 알고리즘";
+			path = "5. 고급 정렬 알고리즘";
+			sourceTree = "<group>";
+		};
 		6BB2538826FE4E5000AEC111 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 		6BB2539326FE4E5000AEC111 /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
+				6B07551C270C052000E5F7D8 /* 5. 고급 정렬 알고리즘 */,
 				6BB253C126FE4EF500AEC111 /* 4. 재귀 */,
 				6BB253B626FE4EE000AEC111 /* 3. 기본 정렬 알고리즘 */,
 				6BB253B126FE4EBF00AEC111 /* 2. 고급 자료구조 */,
