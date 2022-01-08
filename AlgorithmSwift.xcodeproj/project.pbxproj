@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		6B07551D270C054800E5F7D8 /* 수 정렬하기 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수 정렬하기 2.swift"; sourceTree = "<group>"; };
+		6B45361D278994180009778A /* BFS, DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BFS, DFS.swift"; sourceTree = "<group>"; };
 		6B657762277E08A000C9EB93 /* 문서 검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문서 검색.swift"; sourceTree = "<group>"; };
 		6B657764277E0CE900C9EB93 /* 새.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "새.swift"; sourceTree = "<group>"; };
 		6B994335277E14EA009E0092 /* 베스트셀러.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "베스트셀러.swift"; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 				6BB253A026FE4E7C00AEC111 /* 삽입정렬.swift */,
 				6BB2539C26FE4E7C00AEC111 /* 선택정렬.swift */,
 				6BB2539E26FE4E7C00AEC111 /* 퀵 정렬.swift */,
+				6B45361D278994180009778A /* BFS, DFS.swift */,
 			);
 			name = "0. 알고리즘";
 			path = "0. 알고리즘";
