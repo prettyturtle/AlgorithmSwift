@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		6B07551D270C054800E5F7D8 /* 수 정렬하기 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수 정렬하기 2.swift"; sourceTree = "<group>"; };
+		6B353D8B2791442F006CF57D /* 01타일.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01타일.swift"; sourceTree = "<group>"; };
 		6B45361D278994180009778A /* BFS, DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BFS, DFS.swift"; sourceTree = "<group>"; };
 		6B657762277E08A000C9EB93 /* 문서 검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문서 검색.swift"; sourceTree = "<group>"; };
 		6B657764277E0CE900C9EB93 /* 새.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "새.swift"; sourceTree = "<group>"; };
@@ -53,6 +54,8 @@
 		6BB253C226FE4EFE00AEC111 /* Z.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z.swift; sourceTree = "<group>"; };
 		6BB253C326FE4EFE00AEC111 /* 피보나치 수.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "피보나치 수.swift"; sourceTree = "<group>"; };
 		6BB253C626FE4F6800AEC111 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6BB48103279C461100E71462 /* 트리 순회.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "트리 순회.swift"; sourceTree = "<group>"; };
+		6BB48105279C854200E71462 /* 최소 힙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "최소 힙.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,15 @@
 			);
 			name = "5. 고급 정렬 알고리즘";
 			path = "5. 고급 정렬 알고리즘";
+			sourceTree = "<group>";
+		};
+		6B353D8A2791441C006CF57D /* 8. 동적 프로그래밍 */ = {
+			isa = PBXGroup;
+			children = (
+				6B353D8B2791442F006CF57D /* 01타일.swift */,
+			);
+			name = "8. 동적 프로그래밍";
+			path = "8. 동적 프로그래밍";
 			sourceTree = "<group>";
 		};
 		6B657761277E03FD00C9EB93 /* 6. 기본 탐색 알고리즘 */ = {
@@ -109,6 +121,8 @@
 		6BB2539326FE4E5000AEC111 /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
+				6B353D8A2791441C006CF57D /* 8. 동적 프로그래밍 */,
+				6BB48102279C45F400E71462 /* 7. 고급 탐색 알고리즘 */,
 				6B657761277E03FD00C9EB93 /* 6. 기본 탐색 알고리즘 */,
 				6B07551C270C052000E5F7D8 /* 5. 고급 정렬 알고리즘 */,
 				6BB253C126FE4EF500AEC111 /* 4. 재귀 */,
@@ -179,6 +193,16 @@
 			);
 			name = "4. 재귀";
 			path = "4. 재귀";
+			sourceTree = "<group>";
+		};
+		6BB48102279C45F400E71462 /* 7. 고급 탐색 알고리즘 */ = {
+			isa = PBXGroup;
+			children = (
+				6BB48103279C461100E71462 /* 트리 순회.swift */,
+				6BB48105279C854200E71462 /* 최소 힙.swift */,
+			);
+			name = "7. 고급 탐색 알고리즘";
+			path = "7. 고급 탐색 알고리즘";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
