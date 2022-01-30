@@ -104,18 +104,11 @@
 //    }
 //}
 
-
 struct Heap<T: Comparable> {
     
     enum Kind {
         case max
         case min
-    }
-    
-    enum MoveDownCase {
-        case none
-        case onlyLeft
-        case all
     }
     
     var heapArray = [T?]()
@@ -157,8 +150,6 @@ struct Heap<T: Comparable> {
                 return false
             }
         }
-        
-        
     }
     
     mutating func pop() -> T? {
@@ -220,7 +211,6 @@ struct Heap<T: Comparable> {
                 }
             }
         }
-        
         return popedData
     }
     

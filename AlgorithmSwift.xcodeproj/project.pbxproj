@@ -56,6 +56,8 @@
 		6BB253C626FE4F6800AEC111 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6BB48103279C461100E71462 /* 트리 순회.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "트리 순회.swift"; sourceTree = "<group>"; };
 		6BB48105279C854200E71462 /* 최소 힙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "최소 힙.swift"; sourceTree = "<group>"; };
+		6BE89A4327A68B99005A3F27 /* 행복.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "행복.swift"; sourceTree = "<group>"; };
+		6BE89A4627A697B4005A3F27 /* 수빈이와 수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수빈이와 수열.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				6BB253A626FE4E8700AEC111 /* 1. 기본 자료구조 */,
 				6BB2539B26FE4E5C00AEC111 /* 0. 알고리즘 */,
 				6BB2539426FE4E5000AEC111 /* main.swift */,
+				6BE89A4527A68B9D005A3F27 /* 푼 문제들 */,
 			);
 			path = AlgorithmSwift;
 			sourceTree = "<group>";
@@ -203,6 +206,16 @@
 			);
 			name = "7. 고급 탐색 알고리즘";
 			path = "7. 고급 탐색 알고리즘";
+			sourceTree = "<group>";
+		};
+		6BE89A4527A68B9D005A3F27 /* 푼 문제들 */ = {
+			isa = PBXGroup;
+			children = (
+				6BE89A4327A68B99005A3F27 /* 행복.swift */,
+				6BE89A4627A697B4005A3F27 /* 수빈이와 수열.swift */,
+			);
+			name = "푼 문제들";
+			path = "푼 문제들";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
