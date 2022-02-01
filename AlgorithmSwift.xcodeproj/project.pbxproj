@@ -62,6 +62,8 @@
 		6BE89A4C27A7DBAE005A3F27 /* 보너스 점수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "보너스 점수.swift"; sourceTree = "<group>"; };
 		6BE89A4E27A84596005A3F27 /* 걸그룹 마스터 준석이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "걸그룹 마스터 준석이.swift"; sourceTree = "<group>"; };
 		6BE89A5027A85699005A3F27 /* APC는 왜 서브태스크 대회가 되었을까?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APC는 왜 서브태스크 대회가 되었을까?.swift"; sourceTree = "<group>"; };
+		6BE89A5227A95F2A005A3F27 /* The candy war.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The candy war.swift"; sourceTree = "<group>"; };
+		6BE89A5427A96BD6005A3F27 /* Mixing Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mixing Milk.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,8 @@
 				6BE89A4C27A7DBAE005A3F27 /* 보너스 점수.swift */,
 				6BE89A4E27A84596005A3F27 /* 걸그룹 마스터 준석이.swift */,
 				6BE89A5027A85699005A3F27 /* APC는 왜 서브태스크 대회가 되었을까?.swift */,
+				6BE89A5227A95F2A005A3F27 /* The candy war.swift */,
+				6BE89A5427A96BD6005A3F27 /* Mixing Milk.swift */,
 			);
 			name = "푼 문제들";
 			path = "푼 문제들";
