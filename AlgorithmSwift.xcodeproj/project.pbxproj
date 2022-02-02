@@ -32,6 +32,7 @@
 		6B994337277E1B4C009E0092 /* 트로피 진열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "트로피 진열.swift"; sourceTree = "<group>"; };
 		6B994339277E1F5F009E0092 /* 성 지키기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "성 지키기.swift"; sourceTree = "<group>"; };
 		6B994366277FF959009E0092 /* 공유기 설치.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "공유기 설치.swift"; sourceTree = "<group>"; };
+		6BA90EA727AB005200FBA903 /* Z.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z.swift; sourceTree = "<group>"; };
 		6BB2539126FE4E5000AEC111 /* AlgorithmSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB2539426FE4E5000AEC111 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6BB2539C26FE4E7C00AEC111 /* 선택정렬.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "선택정렬.swift"; sourceTree = "<group>"; };
@@ -225,6 +226,7 @@
 				6BE89A5027A85699005A3F27 /* APC는 왜 서브태스크 대회가 되었을까?.swift */,
 				6BE89A5227A95F2A005A3F27 /* The candy war.swift */,
 				6BE89A5427A96BD6005A3F27 /* Mixing Milk.swift */,
+				6BA90EA727AB005200FBA903 /* Z.swift */,
 			);
 			name = "푼 문제들";
 			path = "푼 문제들";
