@@ -28,6 +28,7 @@
 		6B45361D278994180009778A /* BFS, DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BFS, DFS.swift"; sourceTree = "<group>"; };
 		6B657762277E08A000C9EB93 /* 문서 검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문서 검색.swift"; sourceTree = "<group>"; };
 		6B657764277E0CE900C9EB93 /* 새.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "새.swift"; sourceTree = "<group>"; };
+		6B8A32BF27ACFAF800F4B8FD /* 주사위 세개.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "주사위 세개.swift"; sourceTree = "<group>"; };
 		6B994335277E14EA009E0092 /* 베스트셀러.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "베스트셀러.swift"; sourceTree = "<group>"; };
 		6B994337277E1B4C009E0092 /* 트로피 진열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "트로피 진열.swift"; sourceTree = "<group>"; };
 		6B994339277E1F5F009E0092 /* 성 지키기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "성 지키기.swift"; sourceTree = "<group>"; };
@@ -227,6 +228,7 @@
 				6BE89A5227A95F2A005A3F27 /* The candy war.swift */,
 				6BE89A5427A96BD6005A3F27 /* Mixing Milk.swift */,
 				6BA90EA727AB005200FBA903 /* Z.swift */,
+				6B8A32BF27ACFAF800F4B8FD /* 주사위 세개.swift */,
 			);
 			name = "푼 문제들";
 			path = "푼 문제들";
