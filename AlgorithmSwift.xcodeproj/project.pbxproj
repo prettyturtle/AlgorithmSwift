@@ -104,6 +104,7 @@
 		6BE89A5227A95F2A005A3F27 /* The candy war.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The candy war.swift"; sourceTree = "<group>"; };
 		6BE89A5427A96BD6005A3F27 /* Mixing Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mixing Milk.swift"; sourceTree = "<group>"; };
 		6BF5E9A027D6F24D0075E627 /* 프로그래머스_실패율.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "프로그래머스_실패율.swift"; sourceTree = "<group>"; };
+		6BF5E9A227D6F4BF0075E627 /* 프로그래머스_예산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "프로그래머스_예산.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +304,7 @@
 				6B2AA0CB27D5A15500699D2A /* 프로그래머스_약수의 개수와 덧셈.swift */,
 				6B01BF3E27D5D8AF00B3DE6D /* 프로그래머스_소수 만들기.swift */,
 				6BF5E9A027D6F24D0075E627 /* 프로그래머스_실패율.swift */,
+				6BF5E9A227D6F4BF0075E627 /* 프로그래머스_예산.swift */,
 			);
 			name = "푼 문제들";
 			path = "푼 문제들";
