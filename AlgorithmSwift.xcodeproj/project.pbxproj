@@ -59,6 +59,7 @@
 		6B8A32EF27B6CC3F00F4B8FD /* 큰 수 구성하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "큰 수 구성하기.swift"; sourceTree = "<group>"; };
 		6B8A32F127B7A6A700F4B8FD /* 현명한 나이트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "현명한 나이트.swift"; sourceTree = "<group>"; };
 		6B8A337527B9608300F4B8FD /* 프로그래머스_신고 결과 받기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "프로그래머스_신고 결과 받기.swift"; sourceTree = "<group>"; };
+		6B8B49CF27E7677400FC562D /* 프로그래머스_가운데 글자 가져오기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "프로그래머스_가운데 글자 가져오기.swift"; sourceTree = "<group>"; };
 		6B994335277E14EA009E0092 /* 베스트셀러.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "베스트셀러.swift"; sourceTree = "<group>"; };
 		6B994337277E1B4C009E0092 /* 트로피 진열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "트로피 진열.swift"; sourceTree = "<group>"; };
 		6B994339277E1F5F009E0092 /* 성 지키기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "성 지키기.swift"; sourceTree = "<group>"; };
@@ -317,6 +318,7 @@
 				6B2157D127DFA2A900278F65 /* 프로그래머스_짝지어 제거하기.swift */,
 				6BBAD4D527E32F3C004CB1BC /* 병합정렬.swift */,
 				6B25273A27E45EA900AB84E5 /* 회의실 배정.swift */,
+				6B8B49CF27E7677400FC562D /* 프로그래머스_가운데 글자 가져오기.swift */,
 			);
 			name = "푼 문제들";
 			path = "푼 문제들";
