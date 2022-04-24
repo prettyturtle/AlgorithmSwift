@@ -1,8 +1,17 @@
-//
-//  프로그래머스_위장.swift
-//  AlgorithmSwift
-//
-//  Created by yc on 2022/04/10.
-//
-
 import Foundation
+
+func solution(_ clothes: [[String]]) -> Int {
+    
+    var dict = [String: Int]()
+    
+    for clothe in clothes {
+        if dict[clothe[1]] == nil {
+            dict[clothe[1]] = 2
+        } else {
+            dict[clothe[1]]! += 1
+        }
+    }
+    let ret = dict.values.reduce(1, *)
+    
+    return ret - 1
+}
