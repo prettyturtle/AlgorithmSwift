@@ -1,8 +1,4 @@
-//
-//  약수.swift
-//  AlgorithmSwift
-//
-//  Created by yc on 2022/05/01.
-//
+let N = Int(readLine()!)!
+let nums = readLine()!.split(separator: " ").map { Int($0)! }.sorted(by: <)
 
-import Foundation
+print(nums.first! * nums.last!)
