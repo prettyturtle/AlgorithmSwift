@@ -1,8 +1,8 @@
-//
-//  프로그래머스_핸드폰 번호 가리기.swift
-//  AlgorithmSwift
-//
-//  Created by yc on 2022/06/09.
-//
-
-import Foundation
+func solution(_ phone_number: String) -> String {
+    
+    let pCount = phone_number.count
+    let star = String(repeating: "*", count: pCount - 4)
+    let numbers = Array(phone_number)[pCount-4..<pCount].map { String($0) }.joined()
+    
+    return star + numbers
+}
