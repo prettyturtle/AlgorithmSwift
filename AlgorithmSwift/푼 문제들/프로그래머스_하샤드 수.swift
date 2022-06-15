@@ -1,8 +1,6 @@
-//
-//  프로그래머스_하샤드 수.swift
-//  AlgorithmSwift
-//
-//  Created by yc on 2022/06/09.
-//
-
-import Foundation
+func solution(_ x: Int) -> Bool {
+    
+    let sum = String(x).map { Int(String($0))! }.reduce(0, +)
+    
+    return (x % sum == 0)
+}
