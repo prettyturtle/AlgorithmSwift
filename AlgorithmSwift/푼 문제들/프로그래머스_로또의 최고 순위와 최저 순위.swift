@@ -21,7 +21,7 @@ func solution(_ lottos: [Int], _ win_nums: [Int]) -> [Int] {
         minCount = 6
     }
     if maxCount == 7 {
-        maxCount = 7
+        maxCount = 6
     }
     return [maxCount, minCount]
 }
