@@ -16,3 +16,24 @@ for i in 0...lenOfCardNums-3 {
     }
 }
 print(count)
+
+
+// 재풀이
+let nm = readLine()!.split(separator: " ").map { Int($0)! }
+let (n, m) = (nm[0], nm[1])
+let cards = readLine()!.split(separator: " ").map { Int($0)! }
+
+var maxValue = 0
+
+for i in 0..<cards.count - 2 {
+    for j in i+1..<cards.count - 1 {
+        for k in j+1..<cards.count {
+            let sum = cards[i] + cards[j] + cards[k]
+            if sum <= m {
+                maxValue = max(maxValue, sum)
+            }
+        }
+    }
+}
+
+print(maxValue)
