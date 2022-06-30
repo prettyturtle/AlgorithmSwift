@@ -33,3 +33,34 @@ for _ in 1...testCase {
         }
     }
 }
+
+
+
+// 재풀이
+let t = Int(readLine()!)!
+
+for _ in 1...t {
+    let nm = readLine()!.split(separator: " ").map { Int($0)! }
+    let n = nm[0]
+    let m = nm[1]
+    
+    let docs = readLine()!.split(separator: " ").map { Int($0)! }
+    
+    var tup = (0..<n).map { (docs[$0], $0) }
+    
+    var count = 0
+    
+    while true {
+        if tup[0].0 == tup.max(by: { $0.0 < $1.0 })?.0 {
+            count += 1
+            if tup[0].1 == m {
+                print(count)
+                break
+            } else {
+                tup.remove(at: 0)
+            }
+        } else {
+            tup.append(tup.remove(at: 0))
+        }
+    }
+}
