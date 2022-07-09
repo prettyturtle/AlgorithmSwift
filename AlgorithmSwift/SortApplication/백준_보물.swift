@@ -1,8 +1,5 @@
-//
-//  백준_보물.swift
-//  AlgorithmSwift
-//
-//  Created by yc on 2022/07/08.
-//
+let n = Int(readLine()!)!
+let a = readLine()!.split(separator: " ").map { Int($0)! }.sorted(by: >)
+let b = readLine()!.split(separator: " ").map { Int($0)! }.sorted(by: <)
 
-import Foundation
+print((0..<n).map { i in a[i] * b[i] }.reduce(0, +))
