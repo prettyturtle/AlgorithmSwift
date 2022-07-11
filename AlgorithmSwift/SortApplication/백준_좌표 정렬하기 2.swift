@@ -1,8 +1,6 @@
-//
-//  백준_좌표 정렬하기 2.swift
-//  AlgorithmSwift
-//
-//  Created by yc on 2022/07/08.
-//
+let li: [[Int]] = (1...Int(readLine()!)!).map { _ in readLine()!.split(separator: " ").map { Int($0)! } }.sorted { return $0[1] == $1[1] ? $0[0] < $1[0] : $0[1] < $1[1] }
 
-import Foundation
+
+for i in li {
+    print(i[0], i[1])
+}
