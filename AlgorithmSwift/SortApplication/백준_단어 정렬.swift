@@ -1,8 +1,21 @@
-//
-//  백준_단어 정렬.swift
-//  AlgorithmSwift
-//
-//  Created by yc on 2022/08/07.
-//
+let n = Int(readLine()!)!
 
-import Foundation
+var words = [String]()
+
+for _ in 1...n {
+    words.append(readLine()!)
+}
+
+words = Array(Set(words))
+
+words.sort {
+    if $0.count == $1.count {
+        return $0 < $1
+    } else {
+        return $0.count < $1.count
+    }
+}
+
+for word in words {
+    print(word)
+}
