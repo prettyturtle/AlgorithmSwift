@@ -1,8 +1,31 @@
-//
-//  연속합.swift
-//  AlgorithmSwift
-//
-//  Created by yc on 2022/08/23.
-//
+extension String {
+    var asInt: Int { return Int(self)! }
+    var asIntArr: [Int] { return self.split(separator: " ").map { Int($0)! } }
+}
 
-import Foundation
+let n = readLine()!.asInt
+let nums = readLine()!.asIntArr
+
+let maxValue = nums.max()!
+
+if maxValue < 0 {
+    print(maxValue)
+} else {
+    
+    var result = 0
+    var now = 0
+    
+    for num in nums {
+        now += num
+        
+        if now < 0 {
+            now = 0
+        }
+        
+        if result < now {
+            result = now
+        }
+    }
+    
+    print(result)
+}
