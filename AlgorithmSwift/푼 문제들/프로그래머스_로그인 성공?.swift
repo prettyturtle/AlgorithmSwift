@@ -1,8 +1,17 @@
-//
-//  프로그래머스_로그인 성공?.swift
-//  AlgorithmSwift
-//
-//  Created by yc on 2022/12/07.
-//
-
 import Foundation
+
+func solution(_ id_pw: [String], _ db: [[String]]) -> String {
+    
+    if db.contains(id_pw) {
+        return "login"
+    }
+    var result = "fail"
+        
+    for i in db {
+        if i[0] == id_pw[0] && i[1] != id_pw[1] {
+            result = "wrong pw"
+        }
+    }
+    
+    return result
+}
